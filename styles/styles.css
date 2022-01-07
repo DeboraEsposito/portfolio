@@ -1,9 +1,48 @@
-:root {
-  margin: 0%;
-  padding: 0%;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  display: block;
-  background-image: url('/img/background_header.jpg');
+.name {
+  height: 25rem;
+  width: 100%;
+  background-size: 20rem;
+  padding-left: 5rem;
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 30rem;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+}
+
+.simbolo {
+  padding-left: 3rem;
+  color: rgb(255, 251, 251);
+  ;
+}
+
+.icon {
+  padding-right: 1rem;
+}
+
+.titulo {
+  font-size: 4rem;
+  font-family: 'Work Sans';
+  color: rgb(255, 251, 251);
+  padding-top: 13rem;
+
+}
+
+.sub-titulo {
+  color: aliceblue;
+  font-family: 'Work Sans';
+  font-size: 2rem;
+  padding-top: 2rem;
 }
