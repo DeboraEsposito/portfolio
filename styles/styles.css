@@ -1,77 +1,100 @@
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.name {
-  height: 100%;
-  width: 100%;
-  background-size: 40rem;
-  padding-left: 5rem;
+#container1 {
+  background: linear-gradient(217deg, rgba(0, 0, 0, 0.842), rgba(10, 10, 10, 0.973) 70.71%);
 
 }
 
-#myVideo {
+#menu-h {
+  background-color: rgba(8, 8, 8, 0.534);
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 30rem;
-  width: auto;
-  height: auto;
-  z-index: -1000;
+  width: 100%;
 }
 
-.simbolo {
-  padding-left: 3rem;
-  color: rgb(255, 251, 251);
-  ;
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding-left: 2rem;
+  font-family: 'Hina Mincho', serif;
+  font-size: 20px;
 }
 
-.icon {
-  padding-right: 1rem;
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  margin: 3px;
+  color: rgba(255, 255, 255, 0.87);
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+.card {
+
+  margin-top: 7rem;
+  margin-left: 20%;
+  display: flex;
+  width: 50rem;
+  height: 30rem;
+  border: 5px solid rgb(241, 3, 94);
+  box-shadow: 0 0 3em rgb(3, 4, 92);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.644);
+
+
+}
+
+div.card:hover {
+  box-shadow: 0 0 1em rgb(148, 148, 196);
+  background-color: rgb(200, 202, 219);
+
+}
+
+.avatar {
+  margin: 1rem;
+}
+
+.nome {
+  text-align: right;
+  margin: 2rem;
+  display: block;
+
 }
 
 .titulo {
-  font-size: 4rem;
-  font-family: 'Work Sans';
-  color: rgb(255, 251, 251);
-  padding-top: 13.5rem;
-
+  font-family: 'Hina Mincho', serif;
+  font-size: 55px;
 }
 
-.sub-titulo {
-  color: aliceblue;
-  font-family: 'Work Sans';
-  font-size: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 13.5rem;
-
+.subtitulo {
+  font-family: 'Hina Mincho', serif;
+  font-size: 35px;
 }
 
 .sobre {
-  display: flex;
-  background-size: 100%;
-  width: 100%;
-  height: 30rem;
-  padding-left: 15rem;
-  padding-top: 8rem;
-  font-family: "Niconne";
-  font-size: 10rem;
-  color: rgb(232, 232, 238);
-}
-
-.texto-sobre {
-  width: 50%;
-  text-align: center;
-
-}
-
-.titulo-2 {
-  font-size: 4rem;
-  font-family: 'Work Sans';
-  color: rgb(232, 232, 238);
+  background-color: #fff;
+  width: auto;
+  height: 15rem;
+  margin: 2rem;
+  font-family: 'Hina Mincho', serif;
+  font-size: 30px;
   text-align: center;
   justify-content: center;
-  padding-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 1em rgb(148, 148, 196);
+}
+
+div.cards.img {
+  width: 20rem;
+  height: 30rem;
 }
