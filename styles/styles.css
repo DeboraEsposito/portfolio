@@ -1,84 +1,63 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
+
+  background-image: url("../img/background.jpg");
+
+
 }
 
 #container1 {
-  background: linear-gradient(217deg, rgba(0, 0, 0, 0.842), rgba(10, 10, 10, 0.973) 70.71%);
-
-}
-
-#menu-h {
-  background-color: rgba(8, 8, 8, 0.534);
-  position: fixed;
   width: 100%;
+  text-align: center;
 }
 
-#menu-h ul {
-  max-width: 800px;
-  list-style: none;
-  padding-left: 2rem;
-  font-family: 'Hina Mincho', serif;
-  font-size: 20px;
-}
-
-#menu-h ul li {
-  display: inline;
-}
-
-#menu-h ul li a {
-  margin: 3px;
-  color: rgba(255, 255, 255, 0.87);
-  display: inline-block;
-  text-decoration: none;
-  transition: background .4s;
-}
-
-#menu-h ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.849);
+.spider {
+  width: 20rem;
+  justify-content: right;
 }
 
 .card {
 
-  margin-top: 7rem;
-  margin-left: 20%;
-  display: flex;
-  width: 50rem;
-  height: 30rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: block;
+  width: 25rem;
+  height: 33rem;
   border: 5px solid rgb(241, 3, 94);
   box-shadow: 0 0 3em rgb(3, 4, 92);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.644);
+  background-color: rgba(165, 161, 161, 0.1);
 
 
 }
 
 div.card:hover {
   box-shadow: 0 0 1em rgb(148, 148, 196);
-  background-color: rgb(200, 202, 219);
+  background-color: rgba(255, 255, 255, 0.055);
 
 }
 
-.avatar {
-  margin: 1rem;
-}
 
 .nome {
-  text-align: right;
-  margin: 2rem;
+  text-align: center;
+  color: rgb(241, 3, 94);
+  ;
   display: block;
+  border-top: 5px solid rgb(241, 3, 94);
+  ;
 
 }
 
 .titulo {
   font-family: 'Hina Mincho', serif;
-  font-size: 55px;
+  font-size: 23px;
 }
 
 .subtitulo {
   font-family: 'Hina Mincho', serif;
-  font-size: 35px;
+  font-size: 18px;
 }
 
 .sobre {
@@ -92,9 +71,4 @@ div.card:hover {
   justify-content: center;
   padding: 1rem;
   box-shadow: 0 0 1em rgb(148, 148, 196);
-}
-
-div.cards.img {
-  width: 20rem;
-  height: 30rem;
 }
